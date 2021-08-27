@@ -6,5 +6,5 @@ order: 4
 
 ## Peek-a-boo!🤓 I'm Anurag M👋
 <p align="center">
-<br><img src="https://github.com/vincidadesigns/vincidadesigns/blob/main/code.gif" width="280px"><br><br>
+<br><img src="https://imgur.com/HunTcJs" width="280px"><br><br>
 </p>
