@@ -11,5 +11,5 @@ tags: ["Tryhackme", "Phishing", "SUID", "dd"]
 
 | Room Link | Difficulty | Room Creator |
 |-----------|------------|--------------|
-| [Uranium](https://tryhackme.com/room/uranium)  | Hard  |  [hakanbey01](https://tryhackme.com/p/hakanbey01)  |
+|  [Uranium](https://tryhackme.com/room/uranium)  |  Hard  |  [hakanbey01](https://tryhackme.com/p/hakanbey01)  |
 
