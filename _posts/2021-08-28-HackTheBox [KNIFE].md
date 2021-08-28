@@ -4,13 +4,14 @@ author: Anurag M
 date: 2021-08-28 14:30:00 +0800
 categories: [HackTheBox]
 tags: [ "hackthebox", "sudo", "knife", "php" ]
-useRelativeCover : true
 ---
-![knife](https://raw.githubusercontent.com/vincidadesigns/vincidadesigns.github.io/main/assets/img/posts/knife.png)
-## About The Room
 
-| Machine | Difficulty | Creator |
-|---------|------------|---------|
+![knife](https://raw.githubusercontent.com/vincidadesigns/vincidadesigns.github.io/main/assets/img/posts/knife.png)
+
+## About The Machine
+
+| Name | Difficulty | Creator |
+|------|------------|---------|
 | [Knife](https://www.hackthebox.eu/home/machines/profile/347) | Easy | [MrKN16H7](https://www.hackthebox.eu/home/users/profile/98767) |
 
 ## Reconnaissance
