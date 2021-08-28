@@ -2,6 +2,7 @@
 title: HackTheBox[KNIFE]
 author: Anurag M
 date: 2021-08-28 14:30:00 +0800
+description: Hackthebox | Knife | Walkthrough
 categories: [HackTheBox]
 tags: [ "hackthebox", "sudo", "knife", "php", "gtfobin" ]
 ---
