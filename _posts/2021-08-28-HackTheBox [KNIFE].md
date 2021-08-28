@@ -14,6 +14,11 @@ tags: [ "hackthebox", "sudo", "knife", "php" ]
 |------|----|------------|---------|
 | [Knife](https://www.hackthebox.eu/home/machines/profile/347)  | Linux | Easy | [MrKN16H7](https://www.hackthebox.eu/home/users/profile/98767) |
 
+| Blood | User |
+|-------|------|
+| User | [JKR](https://www.hackthebox.eu/home/users/profile/77141) |
+| Root | [JKR](https://www.hackthebox.eu/home/users/profile/77141) |
+
 ## Reconnaissance
 ### Nmap
 ```bash
