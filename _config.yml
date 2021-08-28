@@ -23,9 +23,9 @@ title: V1NC1D4                          # the main title
 tagline: Artist | Designer   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, portfolio, sidebar,
-  bootstrap Jekyll theme with responsive web design
-  and focuses on text presentation.
+  Cyber security blog
+  Hackthebox
+  Tryhackme
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://blog.vincida.me'
