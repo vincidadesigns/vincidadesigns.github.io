@@ -4,8 +4,8 @@ author: Anurag M
 date: 2021-08-29 02:20:00 +0800
 categories: [HackTheBox]
 tags: [ "hackthebox", "sudo", "knife", "php" ]
-math: true
-image: "https://imgur.com/h7ArCGl"
+cover : "https://imgur.com/h7ArCGl"
+useRelativeCover : true
 ---
 # Knife
 ## About The Room
