@@ -4,7 +4,7 @@ author: Anurag M
 date: 2021-08-28 14:30:00 +0800
 categories: [HackTheBox]
 tags: [ "hackthebox", "sudo", "knife", "php" ]
-cover : "https://imgur.com/h7ArCGl"
+cover : ![img](https://raw.githubusercontent.com/vincidadesigns/vincidadesigns.github.io/main/assets/img/posts/knife.png)
 useRelativeCover : true
 ---
 ## About The Room
@@ -127,7 +127,7 @@ james@knife:~$
 ```
 Let's see what [gtfobins](https://gtfobins.github.io) have to say about `knife`
 
-![img](https://imgur.com/oi5WKOu)
+![img](https://raw.githubusercontent.com/vincidadesigns/vincidadesigns.github.io/main/assets/img/posts/knife-gtfobin.png)
 
 Let's get the root shell
 
@@ -156,4 +156,4 @@ delete.sh  root.txt  snap
 |-------|-----|
 | HTTP OPTION Methods | [Click here](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/OPTIONS) |
 | Exploit | [Click here](https://www.exploit-db.com/exploits/49933) |
-| GTFOBins | [Click here](https://gtfobins.github.io/gtfobins/knife/#sudo) |
+| GTFOBins-knife | [Click here](https://gtfobins.github.io/gtfobins/knife/#sudo) |
