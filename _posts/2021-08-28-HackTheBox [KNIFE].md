@@ -10,9 +10,9 @@ tags: [ "hackthebox", "sudo", "knife", "php" ]
 
 ## About The Machine
 
-| Name | Difficulty | Creator |
-|------|------------|---------|
-| [Knife](https://www.hackthebox.eu/home/machines/profile/347) | Easy | [MrKN16H7](https://www.hackthebox.eu/home/users/profile/98767) |
+| Name | OS | Difficulty | Creator |
+|------|----|------------|---------|
+| [Knife] | Linux | (https://www.hackthebox.eu/home/machines/profile/347) | Easy | [MrKN16H7](https://www.hackthebox.eu/home/users/profile/98767) |
 
 ## Reconnaissance
 ### Nmap
