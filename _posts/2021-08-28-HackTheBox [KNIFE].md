@@ -10,6 +10,8 @@ tags: [ hackthebox, sudo, knife, php, gtfobin ]
 
 In this blog, we are going to discuss about pwning knife from hackthebox.
 
+
+
 ## About The Machine
 
 | Name | OS | Difficulty | Creator |
