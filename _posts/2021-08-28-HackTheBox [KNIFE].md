@@ -3,7 +3,7 @@ title: HackTheBox[KNIFE]
 author: Anurag M
 date: 2021-08-28 14:30:00 +0800
 categories: [HackTheBox]
-tags: [ "hackthebox", "sudo", "knife", "php", "gtfobin" ]
+tags: [ hackthebox, sudo, knife, php, gtfobin ]
 ---
 
 ![knife](https://raw.githubusercontent.com/vincidadesigns/vincidadesigns.github.io/main/assets/img/posts/knife.png)
