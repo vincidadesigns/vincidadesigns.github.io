@@ -7,6 +7,7 @@ tags: [ "hackthebox", "sudo", "knife", "php" ]
 cover : "https://raw.githubusercontent.com/vincidadesigns/vincidadesigns.github.io/main/assets/img/posts/knife.png"
 useRelativeCover : true
 ---
+![knife](https://raw.githubusercontent.com/vincidadesigns/vincidadesigns.github.io/main/assets/img/posts/knife.png)
 ## About The Room
 
 | Machine | Difficulty | Creator |
