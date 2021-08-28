@@ -23,10 +23,10 @@ title: V1NC1D4                          # the main title
 tagline: Artist | Designer   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  Cyber Security Blog | Hackthebox | Tryhackme | VulnHub
+  Cyber Security Blog / Hackthebox / Tryhackme / VulnHub
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: 'https://blog.vincida.me'
+url: ''
 
 github:
   username: v1nc1d4             # change to your github username
