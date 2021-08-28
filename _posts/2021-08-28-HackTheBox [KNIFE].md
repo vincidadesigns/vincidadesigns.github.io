@@ -1,7 +1,7 @@
 ---
 title: HackTheBox[KNIFE]
 author: Anurag M
-date: 2021-08-29 02:30:00 +0800
+date: 2021-08-28 14:30:00 +0800
 categories: [HackTheBox]
 tags: [ "hackthebox", "sudo", "knife", "php" ]
 cover : "https://imgur.com/h7ArCGl"
