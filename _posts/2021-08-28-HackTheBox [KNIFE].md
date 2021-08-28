@@ -56,7 +56,7 @@ We have an impressive PHP bug, a quick reserch on google, we could find that it 
 
 Download the [Exploit](https://www.exploit-db.com/exploits/49933)
 
-![img](https://imgur.com/wiBiXCz)
+![img](https://raw.githubusercontent.com/vincidadesigns/vincidadesigns.github.io/main/assets/img/posts/exploit.png)
 
 ## Gaining foothold
 
