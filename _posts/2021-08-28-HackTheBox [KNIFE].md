@@ -12,7 +12,7 @@ tags: [ "hackthebox", "sudo", "knife", "php" ]
 
 | Name | OS | Difficulty | Creator |
 |------|----|------------|---------|
-| [Knife] | Linux | (https://www.hackthebox.eu/home/machines/profile/347) | Easy | [MrKN16H7](https://www.hackthebox.eu/home/users/profile/98767) |
+| [Knife](https://www.hackthebox.eu/home/machines/profile/347)  | Linux | Easy | [MrKN16H7](https://www.hackthebox.eu/home/users/profile/98767) |
 
 ## Reconnaissance
 ### Nmap
