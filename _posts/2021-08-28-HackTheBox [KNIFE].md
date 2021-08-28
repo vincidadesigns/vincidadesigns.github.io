@@ -4,7 +4,6 @@ author: Anurag M
 date: 2021-08-28 14:30:00 +0800
 categories: [HackTheBox]
 tags: [ "hackthebox", "sudo", "knife", "php" ]
-cover : "https://raw.githubusercontent.com/vincidadesigns/vincidadesigns.github.io/main/assets/img/posts/knife.png"
 useRelativeCover : true
 ---
 ![knife](https://raw.githubusercontent.com/vincidadesigns/vincidadesigns.github.io/main/assets/img/posts/knife.png)
