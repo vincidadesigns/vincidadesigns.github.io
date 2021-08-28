@@ -7,7 +7,6 @@ tags: [ "hackthebox", "sudo", "knife", "php" ]
 cover : "https://imgur.com/h7ArCGl"
 useRelativeCover : true
 ---
-# Knife
 ## About The Room
 
 | Machine | Difficulty | Creator |
@@ -57,9 +56,9 @@ We have an impressive PHP bug, a quick reserch on google, we could find that it 
 
 Download the [Exploit](https://www.exploit-db.com/exploits/49933)
 
-![](https://imgur.com/wiBiXCz)
+![img](https://imgur.com/wiBiXCz)
 
-##Gaining foothold
+## Gaining foothold
 
 Let's use the exploit. It will ask us for the target URL, as we append the target URL in the exploit, we will get shell as user.
 
@@ -126,9 +125,9 @@ User james may run the following commands on knife:
     (root) NOPASSWD: /usr/bin/knife
 james@knife:~$ 
 ```
-Let's see what [gtfobi](https://gtfobins.github.io) have to say about `knife`
+Let's see what [gtfobins](https://gtfobins.github.io) have to say about `knife`
 
-![](https://imgur.com/oi5WKOu)
+![img](https://imgur.com/oi5WKOu)
 
 Let's get the root shell
 
@@ -151,7 +150,7 @@ delete.sh  root.txt  snap
 # 
 ```
 
-##Resources
+## Resources
 
 | Topic | Url |
 |-------|-----|
