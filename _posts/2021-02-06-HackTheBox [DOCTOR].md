@@ -6,7 +6,7 @@ categories: [HackTheBox]
 tags: [ hackthebox, ssti, splunk, injection, whisperer2 ]
 ---
 
-![doctor](https://raw.githubusercontent.com/vincidadesigns/vincidadesigns.github.io/main/assets/img/posts/doctor/doctor.png)
+![doctor](https://raw.githubusercontent.com/vincidadesigns/vincidadesigns.github.io/main/assets/img/posts/doctor/doctor.jpeg)
 
 Doctor is an easy rated CTF style machine at [Hackthebox](https://hackthebox.eu), featuring Server Side Template Injection(SSTI) and privilege escalation by exploiting Splunk Universal Forwarder.
 
