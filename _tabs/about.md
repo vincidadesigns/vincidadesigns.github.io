@@ -4,10 +4,6 @@ icon: fas fa-info
 order: 4
 ---
 
-```zsh
-> neofetch
-```
-
 ```csharp
 ANURAG M
 -------------------------
