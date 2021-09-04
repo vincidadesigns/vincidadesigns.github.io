@@ -26,13 +26,7 @@ College: CIT Kokrajhar, Kokrajhar,
 Learning: OpenCV, Machine Learning, Image Processing
           Augmented Reality, Python
 Hobbies: Hackthebox, Tryhackme
-Website: [vincida.me](https://vincida.me/)
-Discord: V1NC1D4#5139
-Github: [v1nc1d4](https://github.com/v1nc1d4/)
-Twitter: [v1nc1d4](https://twitter.com/v1nc1d4/)
-Facebook: [v1nc1d4](https://www.facebook.com/v1nc1d4)
-Linkedin: [v1nc1d4](https://www.linkedin.com/in/v1nc1d4/)
-Instagram: [v1nc1d4](https://www.instagram.com/v1nc1d4/)
+Website: vincida.me
 ```
 <p align="left">
   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
