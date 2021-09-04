@@ -7,7 +7,6 @@ order: 4
 ```zsh
 > neofetch
 ```
-<img align="left" src="https://raw.githubusercontent.com/vincidadesigns/vincidadesigns.github.io/main/assets/img/commons/avatar.jpg" alt="Made By VINCIDA (https://raw.githubusercontent.com/vincidadesigns/vincidadesigns.github.io/main/assets/img/commons/avatar.jpg)" width="320" /> 
 
 ```csharp
 ANURAG M
