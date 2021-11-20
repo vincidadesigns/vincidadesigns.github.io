@@ -305,7 +305,7 @@ I set up the permissions for you to test this. Good luck.
 development@bountyhunter:~$
 ```
 
-The note says that `there was an incident of complete data loss and this is their first job since the incident took place. So they have to be extra careful this time to avoid such incidents. Their job is to test an internal application of Skytrain Inc that works based on ticket validation, but the ticket validation is failing. They to find out why the ticket validation fails. Also John says that to test this application he has given permission to the users.`
+The note says that `there was an incident of complete data loss and this is their first job since the incident took place. So they have to be extra careful this time to avoid such incidents. Their job is to test an internal application of Skytrain Inc that works based on ticket validation, but the ticket validation is failing. They have to find out why the ticket validation fails. Also John says that to test this application he has given permission to the users.`
 
 Let's check user permissions
 
