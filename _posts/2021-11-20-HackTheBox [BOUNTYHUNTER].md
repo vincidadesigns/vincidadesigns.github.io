@@ -150,35 +150,30 @@ Let's use `Gobuster` to search for possible configuration file.
 
 ```bash
 ┌─[eu-free-3]─[10.10.14.208]─[vincida@vincida]─[~/Desktop/HTB/LAB/bountyhunter]
-└──╼ [★]$ gobuster dir -u http://10.10.11.100 -w /usr/share/wordlists/dirb/common.txt -x PHP
+└──╼ [★]$ gobuster dir -u http://10.10.11.100/ -w /usr/share/wordlists/dirbuster/directory-list-lowercase-2.3-medium.txt -x php
 ===============================================================
 Gobuster v3.1.0
 by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
 ===============================================================
-[+] Url:                     http://10.10.11.100
+[+] Url:                     http://10.10.11.100/
 [+] Method:                  GET
 [+] Threads:                 10
-[+] Wordlist:                /usr/share/wordlists/dirb/common.txt
+[+] Wordlist:                /usr/share/wordlists/dirbuster/directory-list-lowercase-2.3-medium.txt
 [+] Negative Status codes:   404
 [+] User Agent:              gobuster/3.1.0
-[+] Extensions:              PHP
+[+] Extensions:              php
 [+] Timeout:                 10s
 ===============================================================
 2021/11/20 03:52:48 Starting gobuster in directory enumeration mode
 ===============================================================
-/.hta                 (Status: 403) [Size: 277]
-/.hta.PHP             (Status: 403) [Size: 277]
-/.htaccess            (Status: 403) [Size: 277]
-/.htpasswd            (Status: 403) [Size: 277]
-/.htaccess.PHP        (Status: 403) [Size: 277]
-/.htpasswd.PHP        (Status: 403) [Size: 277]
-/assets               (Status: 301) [Size: 313] [--> http://10.10.11.100/assets/]
-/css                  (Status: 301) [Size: 310] [--> http://10.10.11.100/css/]
-/db.php               (Status: 200) [Size: 203]    <--- database configuration file
-/index.php            (Status: 200) [Size: 25169]                                
-/js                   (Status: 301) [Size: 309] [--> http://10.10.11.100/js/]    
+/index.php            (Status: 200) [Size: 25169]
 /resources            (Status: 301) [Size: 316] [--> http://10.10.11.100/resources/]
-/server-status        (Status: 403) [Size: 277]                                     
+/assets               (Status: 301) [Size: 313] [--> http://10.10.11.100/assets/]   
+/portal.php           (Status: 200) [Size: 125]                                     
+/css                  (Status: 301) [Size: 310] [--> http://10.10.11.100/css/]      
+/db.php               (Status: 200) [Size: 0]          <--- database configuratin file                             
+/js                   (Status: 301) [Size: 309] [--> http://10.10.11.100/js/]
+/server-status        (Status: 403) [Size: 277] 
                                                                                     
 ===============================================================
 2021/11/20 04:00:29 Finished
