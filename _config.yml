@@ -23,7 +23,7 @@ title: V1NC1D4                          # the main title
 tagline: Artist | Designer   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  Cyber Security Blog / Hackthebox / Tryhackme / VulnHub
+  Cyber Security Blogs by Anurag M
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: ''
@@ -44,8 +44,8 @@ social:
     - https://twitter.com/v1nc1d4      # change to your twitter homepage
     - https://github.com/v1nc1d4       # change to your github homepage
     # Uncomment below to add more social links
-    # - https://www.facebook.com/v1nc1d4
-    # - https://www.linkedin.com/in/v1nc1d4
+    - https://www.facebook.com/v1nc1d4
+    - https://www.linkedin.com/in/v1nc1d4
 
 google_site_verification: google_meta_tag_verification # change to your verification string
 
