@@ -84,7 +84,7 @@ Let's decode the encoded data
 		</bugreport>
 ```
 
-Here we can see that the data is sent in the form of XML, which means that the webpage is likely vulnerable to `XML External Entities (XXE)`
+Here we can see that the data is sent in the form of XML, which means that the webpage is likely vulnerable to `XML External Entities (XXE) injection`
 
 To know more about the vulnerability, check out this [blog](https://www.synack.com/blog/a-deep-dive-into-xxe-injection/)
 
@@ -105,7 +105,7 @@ Let's encode the payload with base64 and then url encode it and sent it to serve
 
 ![bountyhunter](https://raw.githubusercontent.com/vincidadesigns/vincidadesigns.github.io/main/assets/img/posts/bountyhunter/6.png)
 
-And it worked, we were able to pull out `passwd` file from the server.
+And it worked, we were able to pull out `passwd` (/etc/passwd) file from the server.
 
 ```bash
 root:x:0:0:root:/root:/bin/bash
