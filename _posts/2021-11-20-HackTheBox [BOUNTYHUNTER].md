@@ -4,6 +4,8 @@ author: Anurag M
 date: 2021-11-20 04:30:00 +0800
 categories: [HackTheBox]
 tags: [ hackthebox, xxe, python, lfi, eval() ]
+math: false
+mermaid: false
 ---
 
 ![bountyhunter](https://raw.githubusercontent.com/vincidadesigns/vincidadesigns.github.io/main/assets/img/posts/bountyhunter/hunter.jpeg)
