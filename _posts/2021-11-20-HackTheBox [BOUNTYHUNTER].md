@@ -1,7 +1,7 @@
 ---
 title: HackTheBox[BOUNTYHUNTER]
 author: Anurag M
-date: 2021-11-20 04:30:00 +0800
+date: 2021-11-20 09:30:00 +0800
 categories: [HackTheBox]
 tags: [ hackthebox, xxe, python, lfi, eval() ]
 math: false
