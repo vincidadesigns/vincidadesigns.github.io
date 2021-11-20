@@ -54,7 +54,7 @@ Checking the webpage
 
 ![bountyhunter](https://raw.githubusercontent.com/vincidadesigns/vincidadesigns.github.io/main/assets/img/posts/bountyhunter/1.png)
 
-We can find a simple landing page, but on further exploration we could find that the `potal button` redirects to `potal.php` 
+We can find a simple landing page, but on further exploration we could find that the `portal button` redirects to `portal.php` 
 
 ![bountyhunter](https://raw.githubusercontent.com/vincidadesigns/vincidadesigns.github.io/main/assets/img/posts/bountyhunter/2.png)
 
