@@ -4,6 +4,8 @@ author: Anurag M
 date: 2021-02-06 00:30:00 +0800
 categories: [HackTheBox]
 tags: [ hackthebox, ssti, splunk, injection, whisperer2 ]
+math: false
+mermaid: false
 ---
 
 ![doctor](https://raw.githubusercontent.com/vincidadesigns/vincidadesigns.github.io/main/assets/img/posts/doctor/doctor.jpeg)
