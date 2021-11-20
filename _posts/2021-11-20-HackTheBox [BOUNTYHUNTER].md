@@ -402,7 +402,7 @@ Here, the value is `102`.
 
 When all the conditions are met, the script will evaluate (`eval()`) our ticket. We can take advantage of this function because `eval()` function is dangerous and can be exploited.
 
-So, keeping all this in miund let's create our ticket `root.md`
+So, keeping all this in mind let's create our ticket `root.md`
 
 ```bash
 # Skytrain Inc
