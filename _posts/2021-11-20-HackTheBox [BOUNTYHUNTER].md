@@ -58,7 +58,7 @@ We can find a simple landing page, but on further exploration we could find that
 
 ![bountyhunter](https://raw.githubusercontent.com/vincidadesigns/vincidadesigns.github.io/main/assets/img/posts/bountyhunter/2.png)
 
-The portal page we found is under development. But we are given a link to the `Bounty Tracker` which can test.
+The portal page we found is under development. But we are given a link to the `Bounty Tracker` for testing purpose.
 
 ![bountyhunter](https://raw.githubusercontent.com/vincidadesigns/vincidadesigns.github.io/main/assets/img/posts/bountyhunter/3.png)
 
