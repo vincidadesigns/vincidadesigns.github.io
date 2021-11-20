@@ -227,7 +227,7 @@ admin@10.10.11.100's password:
 admin@10.10.11.100: Permission denied (publickey,password).
 ```
 
-These credentials doe's not match. Going back to the `passwd` file there is a user called `development` let's try to login using `development:m19RoAU0hP41A1sTsq6K` 
+These credentials does not match. Going back to the `passwd` file there is a user called `development` let's try to login using `development:m19RoAU0hP41A1sTsq6K` 
 
 Luckily, it worked..!!!
 
