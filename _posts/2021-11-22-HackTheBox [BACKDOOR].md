@@ -3,7 +3,7 @@ title: HackTheBox[BACKDOOR]
 author: Anurag M
 date: 2021-11-22 00:30:00 +0800
 categories: [HackTheBox]
-tags: [ hackthebox, lfi, wordpress, gdb, suid, screen, ]
+tags: [ hackthebox, lfi, wordpress, gdb, suid, screen ]
 math: false
 mermaid: false
 ---
