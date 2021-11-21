@@ -10,8 +10,8 @@ mermaid: false
 
 ![backdoor](https://raw.githubusercontent.com/vincidadesigns/vincidadesigns.github.io/main/assets/img/posts/backdoor/backdoor.jpg)
 
-When a door closes, another opens....
-At least for #hackers 
+When a door closes, another opens....\
+At least for #hackers\
 Backdoor #Easy #Linux Machine created by hkabubaker17
 
 ## About The Machine
